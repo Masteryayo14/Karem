@@ -81,3 +81,34 @@
     text-align: center;
     align-content: center;
   }
+
+  .imagen-volteable {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .imagen-volteable img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .imagen-volteable img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+  }
+  
+  .imagen-volteable:hover img {
+    transform: rotateY(180deg);
+  }
+  
+  .imagen-volteable:hover img::after {
+    display: block;
+  }
