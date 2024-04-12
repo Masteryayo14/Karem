@@ -10,14 +10,35 @@
 
   header {
     font-family: Arial, Helvetica, sans-serif;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     background-color: purple;
     color: #fff;
     padding: 1rem;
     text-align: center;
-    
   }
+  footer {
+    border-radius: 20px;
+    background-color: purple;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .footer-text {
+    color:white;
+    text-align: center;
+  }
+
+  .lista {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    color: black;
+
+    border-radius: 10px;
+    text-align: center;
+  }
+
   nav {
     align-items: center;
     background-color: rgb(177, 1, 177);
@@ -98,7 +119,7 @@
   img {
 
     border-radius: 200px;
-    border: 10px solid black;
+    border: 10px solid rgb(177, 1, 177);
   }
 
   .img {
