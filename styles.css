@@ -17,40 +17,22 @@
     padding: 1rem;
     text-align: center;
   }
-  footer {
-    border-radius: 20px;
-    background-color: purple;
-    color:white;
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .footer-text {
-    color:white;
-    text-align: center;
-  }
-
-  .lista {
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    color: black;
-
-    border-radius: 10px;
-    text-align: center;
-  }
 
   nav {
     align-items: center;
     background-color: rgb(177, 1, 177);
     color: white;
     border: 5px solid rgb(177, 1, 177);
-    border-bottom-left-radius:  10px;
+    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding: 0.5rem;
   }
 
   nav ul {
     list-style-type: none;
     text-align: center;
+    margin: 5px; 
+    padding: 5px; 
   }
 
   nav ul li {
@@ -74,23 +56,53 @@
     padding-bottom: 20px;
   }
 
-  h1 {
-    font-size: 60px;
-    margin-top: 0;
+
+  footer {
+    border-radius: 20px;
+    background-color: purple;
     color: white;
     text-align: center;
+    padding: 1rem;
+  }
+
+  .footer-text {
+    color: white;
+    text-align: center;
+  }
+
+
+  
+  h1 {
+    font-size: 60px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-top: 0;
+    color: black;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: black;
+    text-align:center;
   }
 
   .princesa {
     font-size: 60px;
     margin-top: 0;
-    color: black;
-    text-align:center;
+    color: purple;
+    text-align: center;
 
   }
 
   h4 {
-    font-size: 80px;
+    font-size: 20px;
     margin-top: 0;
     color: black;
     text-align: center;
@@ -98,7 +110,7 @@
   }
 
   p {
-    font-size: 25px;
+    font-size: 30px;
     color: black;
     text-align: center;
   }
@@ -128,12 +140,24 @@
     transition: transform 0.3s ease;
   }
 
-  /* .img img {
-    margin: 0 50px;
-    max-width: 100%;
-    height: auto;
+  .titulo {
+    font-size: 60px;
+    margin-top: 0;
+    color: black;
+    text-align: center;
   }
 
-  .img:hover {
-    transform: scale(1.07);
-  }  */
+  /* ul {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+    text-align: center;
+  } */
+   */
